@@ -1,3 +1,7 @@
+var CodeMirror = require("codemirror");
+var Typo = require("./typo");
+
+
 // Initialize data globally to reduce memory consumption
 var num_loaded = 0;
 var aff_loading = false;
